@@ -14,7 +14,7 @@
 
 Dim _aliases_ as c
 _aliases_ = <<%txt%
-[PathAlias.ADB_Path]|C:\Users\usadiku\Documents\GitHub\AlphaTrainingTask-UrataSadiku\AlphaTrainingTask
+[PathAlias.ADB_Path]|C:\Users\user1\OneDrive\Documents\GitHub\AlphaTrainingTask-UrataSadiku\AlphaTrainingTask
 %txt%
 
 'Creates a global collection called '_A5_Aliases' 
@@ -61,7 +61,7 @@ loadConnectionStrings(gv, _SSRS_ConnectionStrings, "SSRS")
 
 Dim _AlphaDAO_ConnectionStrings as c 
 _AlphaDAO_ConnectionStrings = <<%txt%
-AADemo-Northwind|Encrypted:3MLNR/D8BLa2BOcsjSrGjaXxKIGPYizrLrAjjczoQeOGI+8OHZ/NxEuFOiD63hOIEjJzWrvGOe2MxB/1XLYANIJg2+WduvFne4+x6g/S0Kp8T7Shdm89F2iDD39IVzKULqurQjYbLDpXq/563Kn/W42nLav00tcDeDv7RlpC0ji81/0+Yho+kXxJ9En2n1wMjVn3U+ifjd+5/5GTqQT6oF5N5vzs+nspO8jyriI4V3x1rNnKjRXRJNc7CKsic5xKljwIJscUkzENXSwyz3CAfQ==
+AADemo-Northwind|Encrypted:3MLNR/D8BLa2BOcsjSrGjaXxKIGPYizrLrAjjczoQeOGI+8OHZ/NxEuFOiD63hOILBQk0OUliQEh8lGxRjzcuvo2dmmEQ6teC6L/AYiVqMbDuyC0Aegp1eJuCQV7aV4+fvNJDh+D8MYSdMX25TFY+MX8SBesfGuMoX5IzB90RQ4XT2eS8mUdlFGGz+gLQwZ3NkM8lh/TCq4JcXc/XaNXHUdOgCd3B7wuUfxbCSA2lSYaoPV9AgcwBYzK9STUSx05tIJhW0SwsP0=
 %txt%
 
 'Create a global collection called '_A5_AlphaDAO_ConnectionStrings'
@@ -320,7 +320,7 @@ DIM federatedAuthentication.fieldmap as C
 DIM responseHeaders as P
 DIM responseHeaders.includeInsecureHeaders as L
 DIM responseHeaders.additionalHeaders as C
-DIM __token as C = "3b1bd6075f7a49e381f69343e5b97bab"
+DIM __token as C = "7109dc659a62408b97582ce6c6a66b08"
 %txt%
 
 dim gv as p 
@@ -331,10 +331,10 @@ dim gv.__buildNumberExe__ as n
 dim gv.__buildNumberAddins__ as n 
 dim gv.__guid as c 
 dim gv.__A5PublishVersion as n 
-gv.__A5PublishTimestamp = 2023595915085930859
+gv.__A5PublishTimestamp = 20232215170251923
 gv.__buildNumberExe__ = 8844
 gv.__buildNumberAddins__ = 5687
-gv.__guid = "52dbaab6-2da5-457d-bb88-c6f02e901f0a"
+gv.__guid = "cb8994ff-e9aa-40db-b619-a4434d8c79ce"
 gv.__control = <<%txtcontrol%
 hV7+2zUTjP0=
 %txtcontrol%
