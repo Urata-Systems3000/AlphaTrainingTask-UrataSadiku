@@ -14,7 +14,7 @@
 
 Dim _aliases_ as c
 _aliases_ = <<%txt%
-[PathAlias.ADB_Path]|C:\Users\usadiku\Documents\AlphaTrainingTask
+[PathAlias.ADB_Path]|C:\Users\usadiku\Documents\GitHub\AlphaTrainingTask-UrataSadiku\AlphaTrainingTask
 %txt%
 
 'Creates a global collection called '_A5_Aliases' 
@@ -320,7 +320,7 @@ DIM federatedAuthentication.fieldmap as C
 DIM responseHeaders as P
 DIM responseHeaders.includeInsecureHeaders as L
 DIM responseHeaders.additionalHeaders as C
-DIM __token as C = "7b6459e91fa1476793d6ca2efb6dbf88"
+DIM __token as C = "3b1bd6075f7a49e381f69343e5b97bab"
 %txt%
 
 dim gv as p 
@@ -331,10 +331,10 @@ dim gv.__buildNumberExe__ as n
 dim gv.__buildNumberAddins__ as n 
 dim gv.__guid as c 
 dim gv.__A5PublishVersion as n 
-gv.__A5PublishTimestamp = 2023323214083221872
+gv.__A5PublishTimestamp = 2023595915085930859
 gv.__buildNumberExe__ = 8844
 gv.__buildNumberAddins__ = 5687
-gv.__guid = "3300dce1-5d47-4a1a-a9cc-c922efeac3fe"
+gv.__guid = "52dbaab6-2da5-457d-bb88-c6f02e901f0a"
 gv.__control = <<%txtcontrol%
 hV7+2zUTjP0=
 %txtcontrol%
