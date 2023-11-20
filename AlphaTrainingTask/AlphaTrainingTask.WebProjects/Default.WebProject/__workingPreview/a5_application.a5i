@@ -120,7 +120,7 @@ DIM oauthEvents as P
 DIM oauthEvents.onGotAccessToken as C
 DIM oauthEvents.library as C
 DIM projectStyle as C = "Alpha"
-DIM projectConnectionString as C
+DIM projectConnectionString as C = "::Name::AADemo-Northwind"
 DIM useDirectPdf as L
 DIM usePhantomJStoConvertToPDF as L = .T.
 DIM useMicrosoftXPSPrinterForPDF as L
@@ -291,7 +291,7 @@ DIM css.webkit.AllowSelectionOfText as L
 DIM stripe as P
 DIM stripe.keysJSON as C
 DIM siteDefaults as P
-DIM siteDefaults.guessedDefaultPage as L
+DIM siteDefaults.guessedDefaultPage as L = .T.
 DIM siteDefaults.defaultpage as C = "index.a5w"
 DIM siteDefaults.useExternalRedirect as L
 DIM siteDefaults.maxUploadSizeMB as N = 100
@@ -311,6 +311,11 @@ DIM siteDefaults.http01ChallengeOptions.enabled as L
 DIM siteDefaults.http01ChallengeOptions.challengeVendor as C = "LetsEncrypt"
 DIM siteDefaults.http01ChallengeOptions.wellknownPath as C = ".well-known\acme-challenge"
 DIM siteDefaults.defaultExtensions as C
+DIM siteDefaults.sessionTimeout as N = 15
+DIM siteDefaults.sessionCookieName as C = "XBasic_SessionId"
+DIM siteDefaults.authenticationCookieName as C = ".ASPXFORMSAUTH"
+DIM siteDefaults.extendAuthenticationCookieOnEachRequest as L
+DIM siteDefaults.executionTimeout as N
 DIM aggressive_cleanup as L
 DIM federatedAuthentication as P
 DIM federatedAuthentication.tableType as C = "SQL"
@@ -320,7 +325,8 @@ DIM federatedAuthentication.fieldmap as C
 DIM responseHeaders as P
 DIM responseHeaders.includeInsecureHeaders as L
 DIM responseHeaders.additionalHeaders as C
-DIM __token as C = "abbded0110c94eed8cc3a6fb61c6429b"
+DIM pdfReferenceDevice as C
+DIM __token as C = "14811ab153de4dfd944952dd0f382fe1"
 %txt%
 
 dim gv as p 
@@ -331,10 +337,10 @@ dim gv.__buildNumberExe__ as n
 dim gv.__buildNumberAddins__ as n 
 dim gv.__guid as c 
 dim gv.__A5PublishVersion as n 
-gv.__A5PublishTimestamp = 202331311717310053
+gv.__A5PublishTimestamp = 2023565620165622948
 gv.__buildNumberExe__ = 8844
 gv.__buildNumberAddins__ = 5687
-gv.__guid = "9fbf0036-25a5-45e2-870d-765c60659f0d"
+gv.__guid = "d0b56600-a5d9-4ea8-a435-7b01da5081fe"
 gv.__control = <<%txtcontrol%
 hV7+2zUTjP0=
 %txtcontrol%
